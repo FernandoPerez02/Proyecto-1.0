@@ -1,0 +1,73 @@
+.tex {
+    margin-left: 300px;
+    padding-top: 20px;
+  }
+
+  .dts {
+    margin-right: 200px;
+    margin-top: 80px;
+  }
+
+  #imagen {
+    height: 350px;
+    width: 380px;
+    margin-left: 680px;
+    margin-top: -350px !important;
+    background: #ffff;
+  }
+
+  .form-control {
+    width: 390px !important;
+    margin-left: 15px;
+  }
+
+  .form{
+    display: flex;
+    background: #000;
+    width: 420px;
+    height: 280px;
+    margin-left: 100px;
+    align-items: flex-end;
+    margin-top: 100px;
+    border-radius: 15px;
+  }
+
+  a#btn_mas {
+    width: 80px;
+    margin-top: -20px;
+    margin-left: 200px;
+    background: rgba(162, 105, 19, 1);
+    font-family: "Segoe UI";
+    border-radius: 20px;
+    font-size: 20px;
+  }
+
+  a#btn_mas:hover{
+    color: #000;
+  }
+
+  a#btn_actualizar {
+    width: 120px;
+    margin-top: -20px;
+    margin-left: 70px;
+    font-family: "Segoe UI";
+    border-radius: 20px;
+    font-size: 20px;
+  }
+
+  a#btn_actualizar:hover{
+    color: #000;
+  }
+  a#btn_cerrar {
+    width: 130px;
+    margin-left: 950px;
+    margin-top: -10px;
+    font-family: "Segoe UI";
+    border-radius: 20px;
+    background: rgb(255, 0, 0, 1);
+    font-size: 15px;
+  }
+
+  a#btn_cerrar:hover{
+    color: #000;
+  }

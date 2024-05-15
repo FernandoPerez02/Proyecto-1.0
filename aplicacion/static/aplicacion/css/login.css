@@ -1,0 +1,102 @@
+body {
+    background-color: #5a7346 !important ;
+  }
+  
+  header {
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-area: "img-login title title";
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+  }
+  
+  .formulario {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-top: 80px;
+  }
+  
+  .img-logo {
+    width: 200px;
+    height: 100px;
+    text-align: right;
+  }
+  .img {
+    width: 100px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  h1{
+    font-size: 40px !important;
+  }
+  
+  
+  .cuadro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+    color: #ffffff;
+    margin-top: -680px;
+    margin-left: 500px;
+    
+  }
+  
+  .form-control {
+    width: 300px !important;
+  }
+  .carrusel {
+    width: 600px;
+    border: 5px;
+  }
+  
+  .img-carousel {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 100px;
+  }
+  div.mb-2{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .recu{
+    display: flex;
+    justify-content: center;
+  }
+  .indice{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .error{
+    display: none;
+    font-size: 10px;
+  }
+  
+  .error-activo{
+    display: block;
+    color: #ff0000;
+  }
+  
+  .custom-swal{
+    width: 300px;
+    height: 270px;
+    margin-left: px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  

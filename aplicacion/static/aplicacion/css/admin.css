@@ -1,0 +1,73 @@
+body {
+    background: #5a7346 !important;
+    color: white !important;
+    font-family: 'Segoe UI';
+  }
+  .header {
+    height: 100px;
+    display: grid;
+    align-items: stretch;
+  }
+  .title {
+    text-align: center;
+    color: black;
+    font-family: 'Segoe UI';
+    margin-top: 40px;
+  }
+  
+  .img-login {
+    margin-top: 100px;
+    height: 500px;
+    margin-left: 150px;
+  }
+  .formulario {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+  }
+  
+  .form {
+    display: flex;
+    margin-top: 30px;
+    background: black;
+    width: 400px;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  
+  .form-control {
+    width: 500px;
+    height: 25px;
+  }
+  
+  .mb-2{
+    font-family: 'Segoe UI';
+  }
+  
+  label.term{
+    display: inline-block !important;
+    padding: 10px;
+  }
+  
+  .btn-primary{
+    margin-left: 40px;
+  }
+  
+  .error{
+    display: none;
+    font-size: 10px;
+  }
+  
+  .error-activo{
+    display: block;
+    color: #ff0000;
+  }
+  
+  .custom-swal{
+    width: 250px;
+    height: 200px;
+    margin-left: 200px;
+    font-size: 10px;
+  }
